@@ -1,12 +1,55 @@
-# React + Vite
+# 🥋 Torneo Boolkaichi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un mini-gioco in **JavaScript con React** che simula un torneo ad eliminazione tra combattenti.  
+Il risultato viene mostrato direttamente in **console.log**, compreso il podio finale 🏆.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funzionalità
+- 🔥 Scelta casuale delle armi (senza duplicati)  
+- 💪 Allenamento con moltiplicatore casuale  
+- 🎯 Qualificazione con soglia minima di potenza  
+- ⚔️ Combattimenti a coppie (aggiunta di un Robot se dispari)  
+- 🏅 Semifinali e finale  
+- 🏆 Premiazione con podio ordinato  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Avvio
+```bash
+npm install
+npm run dev
+Apri la console del browser per seguire il torneo 👀
+
+📌 Esempio di output
+=== TORNEO BOOLKAICHI ===
+
+Fase 1 - Scelta Armi: [ ... ]
+
+Fase 2 - Allenamento: [ ... ]
+
+Fase 3 - Qualificazione: [ ... ]
+
+--- Semifinale 1 ---
+Sfida: Goku (power: 8500) vs Vegeta (power: 7200)
+🏆 Vincitore: Goku
+
+--- Semifinale 2 ---
+Sfida: Naruto (power: 9100) vs Luffy (power: 6000)
+🏆 Vincitore: Naruto
+
+--- Finale ---
+Sfida: Goku (power: 8500) vs Naruto (power: 9100)
+🏆 Vincitore: Naruto
+
+--- Finale per il 3 posto ---
+Sfida: Vegeta (power: 7200) vs Luffy (power: 6000)
+🏆 Vincitore: Vegeta
+
+Fase 5 - Premiazione (podio): [Naruto, Goku, Vegeta]
+✨ Futuri sviluppi
+🎴 Interfaccia grafica con card dei combattenti
+🕹️ Possibilità di scegliere manualmente i partecipanti
+🎬 Animazioni per i combattimenti
+👥 Modalità multiplayer
+💾 Salvataggio dei risultati delle partite
