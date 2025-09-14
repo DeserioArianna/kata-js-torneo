@@ -20,8 +20,7 @@ Il risultato viene mostrato direttamente in **console.log**, compreso il podio f
 npm install
 npm run dev
 Apri la console del browser per seguire il torneo 👀
-
- 📌 Esempio di output
+📌 Esempio di output
 === TORNEO BOOLKAICHI ===
 
 Fase 1 - Scelta Armi: [ ... ]
@@ -47,10 +46,9 @@ Sfida: Vegeta (power: 7200) vs Luffy (power: 6000)
 🏆 Vincitore: Vegeta
 
 Fase 5 - Premiazione (podio): [Naruto, Goku, Vegeta]
+``` 
 
----
-
-### ✨ Futuri sviluppi
+## ✨ Futuri sviluppi
  - 🎴 Interfaccia grafica con card dei combattenti
  - 🕹️ Possibilità di scegliere manualmente i partecipanti
  - 🎬 Animazioni per i combattimenti
